@@ -11,7 +11,7 @@ export const logger = createLogger({
   transports: [
     new transports.File({
       filename: resolve(process.cwd(), 'vue-error.log'),
-      level :'vue:error',
+      level :'error',
     }),
   ],
 });
