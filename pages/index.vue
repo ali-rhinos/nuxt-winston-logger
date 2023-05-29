@@ -7,10 +7,11 @@
 <script lang="ts">
 export default defineComponent({
   setup(){
-    const callAPI = async ()=>{
-      const resp = await useFetch('/api/hello')
-    }
-    callAPI()
+    throw new Error("You")
+    // const callAPI = async ()=>{
+    //   const resp = await useFetch('/api/hello')
+    // }
+    // callAPI()
   }
 })
 </script>
