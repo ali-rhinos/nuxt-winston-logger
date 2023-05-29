@@ -1,9 +1,13 @@
 import { createLogger, format, transports } from 'winston'
 import { resolve } from 'path'
+const { combine, timestamp, label, prettyPrint } = format;
 
 export const logger = createLogger({
   level: 'error',
-  format: format.json(),
+  format: combine(
+    timestamp(),
+    prettyPrint()
+  ),
   transports: [
     new transports.File({
       filename: resolve(process.cwd(), 'error.log'),
