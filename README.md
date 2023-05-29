@@ -1,6 +1,6 @@
 # Nuxt 3 - Winston Logger
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) [Winston documentation](https://github.com/winstonjs/winston) to learn more.
 
 ## Setup
 
